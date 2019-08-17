@@ -1,0 +1,12 @@
+{
+  "entries": [
+    "components/side-drawer/side-drawer.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.0.7",
+    "typescriptVersion": "3.5.2"
+  },
+  "collections": [],
+  "bundles": []
+}

@@ -1,0 +1,74 @@
+
+aside{
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 30rem;
+  max-width: 80%;
+  height: 100vh;
+  background: #f3f3f3;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: left 0.3s ease-out;
+}
+
+:host([opened]) aside{
+  left: 0;
+}
+
+
+#click{
+    color: white;
+    background: black;
+    float: right;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+
+
+header{
+  padding: 1rem;
+  background-color: black;
+}
+
+
+header h1{
+  font-size: 1.5rem;
+  color: white;
+  margin: 0;
+
+}
+
+#tabs{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem;
+}
+
+#tabs button{
+
+  width: 30%;
+  background: white;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  font: inherit;
+  padding: .15rem  0;
+}
+
+#tabs button.active,
+#tabs button:hover,
+#tabs button:focus{
+  background: black;
+  color: white;
+}
+
+#tabs button:focus{
+  outline: none;
+}
+
+
+#contact-information{
+  padding: 0 1rem;
+}
